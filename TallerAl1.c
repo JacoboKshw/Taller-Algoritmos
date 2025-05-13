@@ -136,7 +136,7 @@ void medirRendimiento(int n) {
 
 int main() {
     srand(time(NULL));
-    int tamanos[] = {128, 256, 512};  // Puedes incluir 1024 si tu PC lo soporta
+    int tamanos[] = {1024}; 
     int num = sizeof(tamanos) / sizeof(tamanos[0]);
     for (int i = 0; i < num; i++) {
         medirRendimiento(tamanos[i]);
