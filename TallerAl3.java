@@ -139,7 +139,7 @@ public class MatrixMultiplication {
     }
 
     public static void main(String[] args) {
-        int[] tamanos = {1024}; // Puedes agregar 1024 si tu máquina lo permite
+        int[] tamanos = {1024};
         for (int n : tamanos) {
             medirRendimiento(n);
             System.out.println();
