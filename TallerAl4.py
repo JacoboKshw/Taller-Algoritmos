@@ -80,7 +80,7 @@ def medir_tiempos(n):
         print("Strassen no ejecutado (n no es potencia de 2)")
 
 if __name__ == "__main__":
-    tamanos = [1024]  # Puedes agregar 1024 si tu PC lo permite
+    tamanos = [1024]  
     for n in tamanos:
         medir_tiempos(n)
 
