@@ -136,7 +136,7 @@ void medirRendimiento(int n) {
 
 int main() {
     srand(time(0));
-    vector<int> tamanos = {512}; // Puedes agregar 1024 si tu PC lo permite
+    vector<int> tamanos = {1024};
     for (int n : tamanos) {
         medirRendimiento(n);
     }
